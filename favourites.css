@@ -1,0 +1,12 @@
+body{
+    background-image: url('https://wallpapercave.com/wp/wp1829344.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+h5{
+    margin-left: 40%;
+    margin-right: 40%;
+}

@@ -1,0 +1,28 @@
+/*center card and set background*/
+body{
+    background-image: url('https://wallpapercave.com/wp/wp1829344.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+}
+
+/*group items in list*/
+.list-group-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*details of super hero width*/
+.superHero-details{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/*super hero details card*/
+.superHero-details .card{
+    width: 25%;
+}

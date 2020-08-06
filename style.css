@@ -1,0 +1,38 @@
+/*search box*/
+.search-box-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/*background image of page*/
+body{
+    background-image: url('https://wallpapercave.com/wp/wp1829344.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+}
+/*width of search box*/
+.search-box-container .input-group{
+    width: 40%;
+}
+
+/*container for search results*/
+.search-results-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*card width and border*/
+.search-results-container .card{
+    width: 40%;
+    border: none;
+}
+
+/*change cursor on hover*/
+.input-group-text{
+    cursor: pointer;
+}
+
